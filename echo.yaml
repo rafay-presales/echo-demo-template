@@ -31,7 +31,7 @@ spec:
       - name: REPLACE_NAMESPACE_NAME
         image: hashicorp/http-echo
         args:
-        - "-text=REPLACE_NAMESPACE_NAME v1"
+        - "-tetx=REPLACE_NAMESPACE_NAME v1"
         ports:
         - containerPort: 5678
         resources:
